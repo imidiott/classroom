@@ -44,11 +44,7 @@ Any files included in the parent theme (defined in name) but not included in the
 Overriding Template Blocks
 The built-in themes implement many of their parts inside template blocks which can be individually overridden in the main.html template. Simply create a main.html template file in your custom_dir and define replacement blocks within that file. Just make sure that the main.html extends base.html. For example, to alter the title of the MkDocs theme, your replacement main.html template would contain the following:
 
-{% extends "base.html" %}
 
-{% block htmltitle %}
-<title>Custom title goes here</title>
-{% endblock %}
 In the above example, the htmltitle block defined in your custom main.html file will be used in place of the default htmltitle block defined in the parent theme. You may re-define as many blocks as you desire, as long as those blocks are defined in the parent. For example, you could replace the Google Analytics script with one for a different service or replace the search feature with your own. You will need to consult the parent theme you are using to determine what blocks are available to override. The MkDocs and ReadTheDocs themes provide the following blocks:
 
 site_meta: Contains meta tags in the document head.
