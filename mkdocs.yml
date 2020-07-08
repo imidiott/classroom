@@ -1,0 +1,37 @@
+# project info
+site_name : Banaleafs Classroom
+site_author: 'Jaya Mukesh'
+site_url: 'https://bananaleafs.github.io/classroom/'
+
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    scheme: preference
+    
+        
+# Repository
+repo_name: bananaleafs/classroom
+repo_url: https://github.com/bananaleafs/classroom
+
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/JohnGiorgi'
+    - type: 'instagram'
+      link: 'https://www.instagram.com/bnleafs/'
+      
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      
+# Copyright
+copyright: BananaLeafs Classroom - MIT Licensed || Hosted in GitHub   
+      
+ 
