@@ -6,15 +6,17 @@ site_url: 'https://bananaleafs.github.io/classroom/'
 
 # Configuration
 theme:
-  name: 'material'
-  language: 'en'
-  palette:
-    scheme: preference
+  name: null
+  custom_dir: material
     
         
 # Repository
 repo_name: bananaleafs/classroom
 repo_url: https://github.com/bananaleafs/classroom
+
+# Navigation
+nav:
+    - About: index.md
 
 
 # Customization
