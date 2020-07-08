@@ -7,8 +7,7 @@ site_url: 'https://bananaleafs.github.io/classroom/'
 # Configuration
 theme:
   name: null
-  custom_dir: material
-    
+  custom_dir: mkdocs-material/material
         
 # Repository
 repo_name: bananaleafs/classroom
